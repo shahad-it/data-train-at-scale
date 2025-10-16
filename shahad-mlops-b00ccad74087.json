@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "shahad-mlops",
+  "private_key_id": "b00ccad740876370737136e8c6fd4c27b662e1a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUhQ+FU3rvC3rm\nULR2lICwebHJDP72toYC8uXtBfiSQPaB1QnJvyYGPWmjZWU3vvqgjLKPcNQ++bQw\n8axflAvBpN8JJ8Tuwwjv/puApIgdqnumYAGTY6h4HknikliPLu4qHN/lo6n49Uil\nERqe4q2nQwBRy/etXIWxJ8CCIHsu/FD/OlG07hOS0WC3vfPptXRNWfrkvjzMl+O3\nkVKz6QS4gyi5DKjnoFvraxVbl+hItilWmlIm5zdWnXldAJ5KbyVJirzoiFsgyOLm\nxQwrbpC0dXpncxychffgNBaBsXlmr75OnHm49oHadHQ0ZGQR+S7cyVq8XkJzDTsb\novgxPUTZAgMBAAECggEAC4RN8c7JZ6QCQb3cYJ2fZQ/qw2ZolwUMW0ounjSqU90J\nwIOeoLBb6Hv2px8DvFDo6m4+onTjYIbIfEshTMAUMU3xpaoZ0VH6bXHW6SDZFUPV\nFs+3D5DYzYe7vwAOMfw3p7hZfFs2oQGUQoiTAeMeCCxf5/fjGuRj0Zr9iJmwM7Jq\n7rUFir3tP57rI50bfBx//n6zCC/xuJThs4xCAt3OCIqqXjZq6BWUJp7sfckoM0rH\nZToWFCGSvnwyMQ8Fia0RhCzOE5fbWq66eesW7N8L5WlJjwACSlZcJlf7ZDSTN5Mm\nujTsX1ymqFETM/8o28q2ktXurNi30L14FW0OXRloKQKBgQDGR5dohbgKsklh/G9l\nEga0czy7A6X3/B0qh0LT468n+g1ako+iymBdq7yymF2NB7+dd4TU/ZSExuifl78j\n3cAQyg6RhCBUSiwK/jzIzAk/2rpfEHgpoHKbeKTeA3umfvcAWu03ki5/EcUiXNVm\n9fg5rqBN0SI26kni6RFCMoraQwKBgQC/wTWwEoZUw05UPVwahKrQoHOdOk7g8map\nDCPmunlJvE8sTiS2ZcOOz8wM48mFCpxXrw2qYt4WmdWpC9GeQW6+Mf5sdIeDVdpX\nhewPyrGLD0Thfv+4VQDMgFY19wIrWqgAreJO7pz9mNfYL344tEFRL4ubPHfBT3lA\n4TVV+Xg4swKBgFazXVh+CDDdLsti547JaBclwKuB9+PM4TAEf0tJ5wBTDd3J8nbb\niXHMM7HggB+4AKipZ3L/Ax9gHr4SS6kyQNbWk7I7lStmV4XjD885sN20FgSVngWN\nvC+RfH38BeiS4gzMtae0CxLTQWE6OLJR4d3PJxd/2DctEWvgQASzNxYjAoGAcxWd\niDgGATdaenp9HblD34R8/v8wuhchgBG2NlLyWku3ZMrdg87dqIeUWqQXnU55+LIq\nTHmb+wqGzjc2rnls4p+UqDjj3/IV4fORcwTeu6wFViTnixURLqtTkn3WAnkdXZL+\nwQq6lAU4fho68gNVNEmJyzhmU1HEXykK3rej7LsCgYAOEZBBBSZpJxSjSv6KTkFy\nc4k0UpcUvMcP/e4NLIwd5siwXBugnnZAwRuMkl0so+2GhH0Cyfmsxq2yyb+LXgEV\n1lPwPmej+ppKGZWMSWBJKo4BbkF7bhj0BaxuiUqD9cb4gSxKsTH/GmNJ0A/0pAS5\nbWPTO4TKWAshnqawhsSu5Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shahad-mlops-sa@shahad-mlops.iam.gserviceaccount.com",
+  "client_id": "115096536557869698951",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shahad-mlops-sa%40shahad-mlops.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

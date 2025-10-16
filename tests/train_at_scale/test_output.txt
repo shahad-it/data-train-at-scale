@@ -1,0 +1,42 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.18, pytest-8.4.2, pluggy-1.6.0 -- /usr/bin/python3.10
+cachedir: .pytest_cache
+rootdir: /home/codespace/code/shahad-it/07-ML-Ops/01-Train-at-scale/data-train-at-scale/tests
+configfile: pytest_kitt.ini
+collecting ... collected 8 items / 2 deselected / 6 selected
+
+tests/train_at_scale/test_clean.py::test_clean_data PASSED               [ 16%]
+tests/train_at_scale/test_main_local.py::TestMainLocal::test_route_preprocess_and_train PASSED [ 33%]
+tests/train_at_scale/test_main_local.py::TestMainLocal::test_route_pred PASSED [ 50%]
+tests/train_at_scale/test_model.py::test_model_can_fit PASSED            [ 66%]
+tests/train_at_scale/test_notebook.py::TestNotebook::test_y_pred FAILED  [ 83%]
+tests/train_at_scale/test_processor_pipeline.py::test_preprocess_features PASSED [100%]
+
+=================================== FAILURES ===================================
+___________________________ TestNotebook.test_y_pred ___________________________
+../../../../../.local/lib/python3.10/site-packages/nbresult/__init__.py:96: in setUp
+    result_file = _locate_pickle(name)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+name = 'notebook'
+
+    def _locate_pickle(name):
+        '''Find pickle file based on its name.
+        Assumes unicity of pickle name from first `tests` parent folder above cwd
+        '''
+        cwd = os.getcwd()
+    
+        while not os.path.isdir(os.path.join(cwd, 'tests')):
+            cwd = os.path.dirname(cwd)
+            if cwd == os.sep:
+                raise NameError(
+                    "Could not find /tests directory in any parent folder")
+    
+>       pickle_path = glob.glob(
+            os.path.abspath(os.path.join(cwd, '**', f'{name}.pickle')), recursive=True)[0]
+E       IndexError: list index out of range
+
+../../../../../.local/lib/python3.10/site-packages/nbresult/__init__.py:113: IndexError
+=========================== short test summary info ============================
+FAILED tests/train_at_scale/test_notebook.py::TestNotebook::test_y_pred - Ind...
+=========== 1 failed, 5 passed, 2 deselected, 22 warnings in 12.27s ============
